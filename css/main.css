@@ -11,8 +11,8 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
+    color: #29293d;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -39,10 +39,10 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
+    display: flex;
+    height: 1em;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1em solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -97,14 +97,15 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #29293d;
+  font-size: 1em;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lora', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
   height: 100%;
 }
 
@@ -112,20 +113,23 @@ body {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: center, space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.5em;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid #fff;
+  padding: 30px;
+  
 }
 
 
